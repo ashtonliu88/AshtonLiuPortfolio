@@ -21,7 +21,7 @@ const HeroContent = () => {
                 </span>
             </motion.div>
             <motion.p variants ={slideInFromLeft(0.8)} className = "text-lg text-gray-500 my-5 max-w-[600px]">
-                I am a Full Stack / Backend / Frontend Software Engineer with experience in yadda yadda. Check out my projects and skills.
+                I am a Full Stack / Backend / Frontend Software Engineer with experience in Python, Go, Java, C++, React, Javascript, etc. Check out my projects and skills!
             </motion.p>
             <motion.a variants={slideInFromLeft(1)} className = "py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]">
                 Learn More!
