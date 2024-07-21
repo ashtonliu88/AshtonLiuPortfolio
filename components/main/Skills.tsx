@@ -3,6 +3,7 @@ import {
   Frontend_skill,
   Full_stack,
   Other_skill,
+  Skill_data,
 } from "@/constants";
 import React from "react";
 import { FrontSide } from "three";
@@ -18,7 +19,7 @@ const Skills = () => {
     >
       <SkillText />
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-        {Frontend_skill.map((image, index) => (
+        {Skill_data.map((image, index) => (
           <SkillDataProvider
             key={index}
             src={image.Image}
