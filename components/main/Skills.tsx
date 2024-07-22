@@ -1,14 +1,16 @@
+"use client";
 import {
   Backend_skill,
-  Frontend_skill,
   Full_stack,
-  Other_skill,
-  Skill_data,
+  Skill_data_first_row,
+  Skill_data_second_row,
 } from "@/constants";
 import React from "react";
-import { FrontSide } from "three";
 import SkillDataProvider from "../sub/SkillDataProvider";
 import SkillText from "../sub/SkillText";
+import { motion } from "framer-motion";
+import { slideInFromTop } from "@/utils/motion";
+import { SparklesIcon } from "@heroicons/react/24/solid";
 
 const Skills = () => {
   return (
@@ -18,16 +20,15 @@ const Skills = () => {
       style={{ transform: "scale(0.9)" }}
     >
       <SkillText />
-      <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-        {Skill_data.map((image, index) => (
-          <SkillDataProvider
-            key={index}
-            src={image.Image}
-            width={image.width}
-            height={image.height}
-            index={index}
-          />
-        ))}
+
+      <div className="w-full h-auto flex flex-col items-center justify-center">
+        <motion.div
+          variants={slideInFromTop}
+          className="Welcome-box py-[8px] px-[7px] border-[#7042f88b] opacity-[0.9]"
+        >
+          <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
+          <h1 className="Welcome-text text-[20px]">Backend Languages</h1>
+        </motion.div>
       </div>
 
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
@@ -42,8 +43,18 @@ const Skills = () => {
         ))}
       </div>
 
+      <div className="w-full h-auto flex flex-col items-center justify-center">
+        <motion.div
+          variants={slideInFromTop}
+          className="Welcome-box py-[8px] px-[7px] border-[#7042f88b] opacity-[0.9]"
+        >
+          <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
+          <h1 className="Welcome-text text-[20px]">Frontend Languages</h1>
+        </motion.div>
+      </div>
+
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-        {Full_stack.map((image, index) => (
+        {Skill_data_first_row.map((image, index) => (
           <SkillDataProvider
             key={index}
             src={image.Image}
@@ -55,7 +66,28 @@ const Skills = () => {
       </div>
 
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-        {Other_skill.map((image, index) => (
+        {Skill_data_second_row.map((image, index) => (
+          <SkillDataProvider
+            key={index}
+            src={image.Image}
+            width={image.width}
+            height={image.height}
+            index={index}
+          />
+        ))}
+      </div>
+
+      <div className="w-full h-auto flex flex-col items-center justify-center">
+        <motion.div
+          variants={slideInFromTop}
+          className="Welcome-box py-[8px] px-[7px] border-[#7042f88b] opacity-[0.9]"
+        >
+          <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
+          <h1 className="Welcome-text text-[20px]">Full-Stack tools</h1>
+        </motion.div>
+      </div>
+      <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
+        {Full_stack.map((image, index) => (
           <SkillDataProvider
             key={index}
             src={image.Image}

@@ -1,4 +1,4 @@
-export const Skill_data = [
+export const Skill_data_first_row = [
     {
       skill_name: "Html 5",
       Image: "/html.png",
@@ -35,49 +35,46 @@ export const Skill_data = [
       width: 80,
       height: 80,
     },
-    {
-      skill_name: "React Query",
-      Image: "/reactquery.png",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "Type Script",
-      Image: "/ts.png",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "Next js 13",
-      Image: "/next.png",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "Framer Motion",
-      Image: "/framer.png",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "Stripe Payment",
-      Image: "/stripe.webp",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "Node js",
-      Image: "/node-js.png",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "Mongo db",
-      Image: "/mongodb.png",
-      width: 40,
-      height: 40,
-    },
   
+  ];
+
+  export const Skill_data_second_row = [
+    {
+        skill_name: "React Query",
+        Image: "/reactquery.png",
+        width: 80,
+        height: 80,
+      },
+      {
+        skill_name: "Type Script",
+        Image: "/ts.png",
+        width: 80,
+        height: 80,
+      },
+      {
+        skill_name: "Next js 13",
+        Image: "/next.png",
+        width: 80,
+        height: 80,
+      },
+      {
+        skill_name: "Framer Motion",
+        Image: "/framer.png",
+        width: 80,
+        height: 80,
+      },
+      {
+        skill_name: "Node js",
+        Image: "/node-js.png",
+        width: 80,
+        height: 80,
+      },
+      {
+        skill_name: "Mongo db",
+        Image: "/mongodb.png",
+        width: 40,
+        height: 40,
+      },
   ];
   
   export const Socials = [
@@ -86,6 +83,7 @@ export const Skill_data = [
       src: "/instagram.svg",
     },
     {
+        //Change this to github for later
       name: "Facebook",
       src: "/facebook.svg",
     },
@@ -123,6 +121,7 @@ export const Skill_data = [
       height: 80,
     },
     {
+        //Don't need
       skill_name: "Material UI",
       Image: "/mui.png",
       width: 80,
@@ -186,29 +185,16 @@ export const Skill_data = [
       height: 55,
     },
     {
-      skill_name: "Postger SQL",
-      Image: "/postger.png",
-      width: 70,
-      height: 70,
-    },
-    {
-      skill_name: "My SQL",
-      Image: "/mysql.png",
-      width: 70,
-      height: 70,
-    },
-    {
-      skill_name: "Prisma",
-      Image: "/prisma.webp",
-      width: 70,
-      height: 70,
-    },
-    {
-      skill_name: "Graphql",
-      Image: "/graphql.png",
-      width: 80,
-      height: 80,
-    },
+        skill_name: "Go",
+        Image: "/go.png",
+        width: 60,
+        height: 60,
+      },
+    //include the following:
+    //python
+    //c++
+    //java
+    //grpc
   ];
   
   export const Full_stack = [
@@ -237,18 +223,14 @@ export const Skill_data = [
       width: 50,
       height: 50,
     },
+    //include postman
   
   ];
   
   
   
   export const Other_skill = [
-    {
-      skill_name: "Go",
-      Image: "/go.png",
-      width: 60,
-      height: 60,
-    },
+    
   ];
   
   
