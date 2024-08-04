@@ -27,7 +27,7 @@ const Skills = () => {
           className="Welcome-box py-[8px] px-[7px] border-[#7042f88b] opacity-[0.9]"
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
-          <h1 className="Welcome-text text-[20px]">Backend Languages</h1>
+          <h1 className="Welcome-text text-[17px]">Backend Languages</h1>
         </motion.div>
       </div>
 
@@ -49,7 +49,7 @@ const Skills = () => {
           className="Welcome-box py-[8px] px-[7px] border-[#7042f88b] opacity-[0.9]"
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
-          <h1 className="Welcome-text text-[20px]">Frontend Languages</h1>
+          <h1 className="Welcome-text text-[17px]">Frontend Languages</h1>
         </motion.div>
       </div>
 
@@ -83,7 +83,7 @@ const Skills = () => {
           className="Welcome-box py-[8px] px-[7px] border-[#7042f88b] opacity-[0.9]"
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
-          <h1 className="Welcome-text text-[20px]">Full-Stack tools</h1>
+          <h1 className="Welcome-text text-[17px]">Full-Stack tools</h1>
         </motion.div>
       </div>
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">

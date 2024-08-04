@@ -161,6 +161,30 @@ export const Skill_data_first_row = [
   
   export const Backend_skill = [
     {
+      skill_name: "Python",
+      Image: "/python.png",
+      width:80,
+      height:80,
+    },
+    {
+      skill_name: "Java",
+      Image: "/javaupdated.png",
+      width:80,
+      height:80,
+    },
+    {
+      skill_name: "C",
+      Image: "/clogo.png",
+      width:80,
+      height:80,
+    },
+    {
+      skill_name: "C++",
+      Image: "/cplusplus.png",
+      width:80,
+      height:80,
+    },
+    {
       skill_name: "Node js",
       Image: "/node-js.png",
       width: 80,
