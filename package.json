@@ -12,7 +12,8 @@
     "@heroicons/react": "^2.1.5",
     "next": "14.2.5",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-vertical-timeline-component": "^3.6.0"
   },
   "devDependencies": {
     "@react-three/drei": "^9.108.3",
@@ -20,6 +21,7 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/react-vertical-timeline-component": "^3.3.6",
     "eslint": "^8",
     "eslint-config-next": "14.2.5",
     "framer-motion": "^11.3.2",
