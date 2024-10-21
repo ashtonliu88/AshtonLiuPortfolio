@@ -3,10 +3,11 @@ import ExperienceContent from '../sub/ExperienceContent'; // Adjust the import p
 
 const Experience: React.FC = () => {
   return (
+    <section id = "experiences">
     <div>
-      <h1>My Timeline</h1>
       <ExperienceContent />
     </div>
+    </section>
   );
 };
 

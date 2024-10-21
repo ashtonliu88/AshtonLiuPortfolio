@@ -9,8 +9,8 @@ import 'react-vertical-timeline-component/style.min.css';
 const ExperienceContent: React.FC = () => {
   const events = [
     {
-      date: '2024-01-01',
-      title: 'New Year Celebration',
+      date: '2024-09-01',
+      title: 'Artificial Intelligence Explainability Accountability (AIEA) Auditor',
       content: 'Celebrated the start of a new year with friends and family.',
     },
     {
@@ -23,7 +23,16 @@ const ExperienceContent: React.FC = () => {
       title: 'Project Launch',
       content: 'Successfully launched a new project at work.',
     },
-    // Add more events as needed
+    {
+      date: '2024-03-01',
+      title: 'Project Launch',
+      content: 'Successfully launched a new project at work.',
+    },
+    {
+      date: '2024-03-01',
+      title: 'Project Launch',
+      content: 'Successfully launched a new project at work.',
+    },
   ];
 
   return (
