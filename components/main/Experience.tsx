@@ -1,16 +1,11 @@
-"use client";
-import React from "react";
-import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
-import 'react-vertical-timeline-component/style.min.css';
-import ExperienceContent from "../sub/ExperienceContent";
-
+import React from 'react';
+import ExperienceContent from '../sub/ExperienceContent'; // Adjust the import path as necessary
 
 const Experience: React.FC = () => {
   return (
-    <div id="experiences">
-     <VerticalTimeline>
-
-      </VerticalTimeline>
+    <div>
+      <h1>My Timeline</h1>
+      <ExperienceContent />
     </div>
   );
 };
