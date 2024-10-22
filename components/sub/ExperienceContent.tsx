@@ -12,31 +12,31 @@ const ExperienceContent: React.FC = () => {
       id: 1,
       date: '2024-09-01',
       title: 'Artificial Intelligence Explainability Accountability (AIEA) Auditor',
-      description: 'Celebrated the start of a new year with friends and family.',
+      description: 'Conduct testing and optimization of autonomous vehicle paths using Python, Nautilus and AV simulators, ensuring safe and efficient navigation while identifying and analyzing potential errors and failures in driving algorithms.',
       location: 'Santa Cruz, CA'
     },
     {
-      date: '2024-02-14',
+      date: '2024-06-01',
       title: 'Software Engineer Intern',
-      description: 'A special day spent with loved ones.',
+      description: 'Utilized AWS EC2 instances to deploy a Slackbot/Discordbot developed in Python/Django, integrating with Slack/Discord APIs and Clavata moderation applications to automate content moderation and enhance user engagement with Clavata’s products.',
       location: 'San Francisco, CA'
     },
     {
-      date: '2024-03-01',
+      date: '2024-01-01',
       title: 'Project Launch',
-      description: 'Successfully launched a new project at work.',
+      description: 'Proficiently identifying and labeling critical visual elements in photos using AnyLabeling, such as riptide patterns and current color nuances to enhance machine learning models with essential visual cues for effective riptide detection.',
       location: 'Santa Cruz, CA'
     },
     {
-      date: '2024-03-01',
-      title: 'Project Launch',
-      description: 'Successfully launched a new project at work.',
+      date: '2023-07-01',
+      title: 'Frontend Engineer',
+      description: 'Proficiently harness PHP and WordPress to design and engineer captivating user interfaces, translating intricate design concepts into responsive, performance-optimized websites while facilitating over 1000 UCSC websites.',
       location: 'Santa Cruz, CA'
     },
     {
-      date: '2024-03-01',
-      title: 'Project Launch',
-      description: 'Successfully launched a new project at work.',
+      date: '2022-11-01',
+      title: 'Resume Peer Coach',
+      description: 'Developed a proficiency in creating impactful resumes and cover letters for 200+ students by meticulously reviewing and enhancing application materials to effectively showcase strengths, accomplishments, and career aspirations',
       location: 'Santa Cruz, CA'
     },
   ];
