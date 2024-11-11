@@ -12,9 +12,9 @@ const Projects = () => {
       </h1>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         <ProjectCard
-          src="/NextWebsite.png"
-          title="Modern Next.js Portfolio"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          src="/DermaScanWebsite.png"
+          title="DermaScan"
+          description=" DermaScan is a revolutionary full stack web app designed to bridge the gap in dermatological care for underprivileged children who struggle with skin issues, particularly acne."
         />
         <ProjectCard
           src="/CardImage.png"
